@@ -15,6 +15,16 @@ Investigate engineering questions by generating competing hypotheses, designing 
 - Record evidence, failed experiments, and disproven hypotheses
 - Evaluate outcomes with independent experimental oracles
 
+## Related projects
+
+Crucible is the proposed umbrella platform for three independently useful experimental capabilities:
+
+- [Disconfirm](https://github.com/jsawyerdev/disconfirm) - generates competing hypotheses and designs discriminating experiments
+- [Proofsmith](https://github.com/jsawyerdev/proofsmith) - independently verifies changes proposed by coding agents
+- [Replicarium](https://github.com/jsawyerdev/replicarium) - reconstructs and tests published computing experiments
+
+These relationships are conceptual. They do not establish implementation dependencies or commit the projects to a shared architecture.
+
 ## Technical direction
 
 Isolated execution, causal and Bayesian reasoning, experiment tracking, static and dynamic analysis.
